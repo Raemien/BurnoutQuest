@@ -72,7 +72,7 @@ MAKE_HOOK_MATCH(SaberBurnMarkArea_Start, &GlobalNamespace::SaberBurnMarkArea::St
 
 extern "C" void setup(ModInfo& info) {
     info.id = "Burnout";
-    info.version = "1.0.0";
+    info.version = "1.0.1";
     modInfo = info;
     getConfig().Load();
 }
